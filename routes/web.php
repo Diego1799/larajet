@@ -35,3 +35,7 @@ Route::get('test', function () {
     return view('paciente.test');
 });
 
+Route::get('resultado', function () {
+    return view('paciente.resultado');
+});
+
