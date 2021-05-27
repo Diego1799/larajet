@@ -31,3 +31,7 @@ Route::get('inicio', function () {
     return view('inicio.inicio');
 });
 
+Route::get('test', function () {
+    return view('paciente.test');
+});
+

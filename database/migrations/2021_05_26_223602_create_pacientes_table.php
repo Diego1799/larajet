@@ -21,9 +21,9 @@ class CreatePacientesTable extends Migration
             $table->string("direccion",30);
             $table->string("nombreacom",25);
             $table->bigInteger("telefonoacom");
-            $table->string("antecedentes",250);
-            $table->string("motivo",250);
-            $table->string("diagnostico",250);
+            $table->text("antecedentes");
+            $table->text("motivo");
+            $table->text("diagnostico");
             $table->timestamps();
         });
     }

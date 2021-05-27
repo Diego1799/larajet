@@ -46,6 +46,7 @@
                 @csrf
                 @method("DELETE")
                 <button type= "submit" class="btn btn-danger boton-editar">Borrar</button>
+                <a href="/test" class="btn btn-secondary mb-3">Test</a>
                 </form>
                 </div>
             </td>
