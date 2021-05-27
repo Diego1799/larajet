@@ -26,7 +26,7 @@
     </thead>
     <tbody>
         @foreach ($doctores as $doctor)
-        <tr>
+        <tr class="centrar">
             <td>{{$doctor->id}}</td>
             <td>{{$doctor->nombre}}</td>
             <td>{{$doctor->apellido}}</td>

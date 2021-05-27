@@ -8,8 +8,8 @@
 
 @section('content')
 
-<h1> aki pones el mensaje</h1>
-
+<h1>El paciente es candidato a tener Covid-19</h1>
+<a href="/pacientes" class="btn btn-secondary mb-3">Volver</a>
 @stop
 
 @section('css')

@@ -32,7 +32,7 @@
         </div>
 
         <a href="/pacientes" class="btn btn-secondary mb-3" tabindex="8">Cancelar</a>
-        <a href="/pacientes" <button type="submit" class="btn btn-primary mb-3" tabindex="9">Enviar</button></a>
+        <a href="/resultado" <button type="submit" class="btn btn-primary mb-3" tabindex="9">Enviar</button></a>
 </form>
 
 @stop

@@ -23,7 +23,7 @@
     </thead>
     <tbody>
         @foreach ($hospitales as $hospital)
-        <tr>
+        <tr class="centrar">
             <td>{{$hospital->id}}</td>
             <td>{{$hospital->nombre}}</td>
             <td>{{$hospital->direccion}}</td>
