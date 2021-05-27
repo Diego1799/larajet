@@ -1,0 +1,59 @@
+.inicio{
+    background-image: url(https://images3.alphacoders.com/101/1010294.jpg);
+    overflow: auto !important;
+    background-size: cover !important;
+    background-position-y: 50% !important;
+    background-position-x: center !important;
+    background-attachment: fixed !important;
+    
+ }
+
+ .contenedor{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ .contenedor-btn{
+     position: absolute;
+     top: 30%;
+     width: 120px;
+     
+ }
+ 
+ .doctor{
+    width: 100px;
+    height: 100px;
+ }
+ .boton-doctor{
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+ }
+
+ .paciente{
+    width: 100px;
+    height: 100px;
+ }
+ .boton-paciente{
+    margin-top: 15%;
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+ }
+
+ .boton-editar{
+    margin: 5px;
+    text-align: center;
+ }
+.centrar{
+   text-align: center;
+}
+
+ 
